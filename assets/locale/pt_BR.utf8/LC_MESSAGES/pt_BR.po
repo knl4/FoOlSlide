@@ -1,6 +1,6 @@
 # 
 # Translators:
-#   <alexandrecott@gmail.com>, 2011.
+# Alexandre Cota <alexandrecott@gmail.com>, 2011, 2019.
 # Andrei Dheku <andrei.sanoliveira@gmail.com>, 2011, 2012.
 #   <lucaszm@gmail.com>, 2011.
 #  Raito Yagami <raito@nihonbrazil.com>, 2011.
@@ -52,11 +52,11 @@ msgstr "O nome do host que hospeda a base de dados. 99.8% das vezes é \"localho
 #: /Users/woxxy/github/FoOlSlide/application/controllers/install.php:66
 #: /Users/woxxy/github/FoOlSlide/application/controllers/install.php:189
 msgid "Database name"
-msgstr "Nome da base da dados"
+msgstr "Nome da base de dados"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/install.php:74
 msgid "The name of the database"
-msgstr "Nome da base da dados"
+msgstr "Nome da base de dados"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/install.php:79
 #: /Users/woxxy/github/FoOlSlide/application/controllers/install.php:190
@@ -122,7 +122,7 @@ msgstr "FoOlSlide foi instalado com sucesso. Verifique as preferências e certif
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/install.php:312
 msgid "You need at least PHP version 5.2.0 to run FoOlSlide. This means you have a many years old version. It is suggested to upgrade to a more recent version of PHP to avoid security issues with your server in general."
-msgstr ""
+msgstr "Você precisa da versão 5.2.0 do PHP para rodar o FoOlSlide. Isso significa que possue uma versão obsoleta instalada. É recomendado atualizar para uma versão mais atualizada do PHP."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/install.php:319
 #, php-format
@@ -174,7 +174,7 @@ msgstr "Últimos lançamentos"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/reader.php:195
 msgid "Adult content notice"
-msgstr ""
+msgstr "Conteúdo Adulto"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/reader.php:295
 msgid "Chapter"
@@ -240,7 +240,7 @@ msgstr "Nome de Exibição"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/account/index.php:51
 msgid "Twitter username"
-msgstr "Twitter username"
+msgstr "Nome de usuário do Twitter"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/account/index.php:52
 msgid "Bio"
@@ -455,11 +455,11 @@ msgstr "FoOlSlide"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:105
 msgid "Sets the title of your FoOlSlide. This appears in the title of every page."
-msgstr "Define o título do seu FoOlSlide. Esse aparecerá no título de toda página."
+msgstr "Defina o título do seu FoOlSlide. Esse aparecerá no título de todas as páginas."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:110
 msgid "Back URL"
-msgstr "URL de volta"
+msgstr "Voltar a URL"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:118
 msgid "A small URL linked to another page. This is located next to the title at the top of every page."
@@ -471,7 +471,7 @@ msgstr "Equipe padrão"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:131
 msgid "Sets the default team used for widgets and releases."
-msgstr "Define a equipe padrão usada para widgets e lançamentos."
+msgstr "Define a equipe padrão usada para ferramentas e lançamentos."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:137
 msgid "Default release language"
@@ -483,7 +483,7 @@ msgstr "Altera o idioma padrão de lançamentos para todos os futuros lançament
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:147
 msgid "Default Software Language"
-msgstr "Idioma padrão do Software"
+msgstr "Idioma padrão do programa"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:153
 msgid "Changes the software language of FoOlSlide. Please contribute by translating this software on our <a href=\"https://www.transifex.net/projects/p/foolslide/resource/defaultpot/\">Transifex project</a>."
@@ -500,15 +500,15 @@ msgstr "Selecione o tema"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:197
 msgid "Pre-Header Text"
-msgstr "Texto Pre-Header "
+msgstr "Texto de pré-cabeçalho"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:203
 msgid "This will insert HTML code above before the header navigation block."
-msgstr "Isto irá inserir um código HTML acima do bloco de navegação do header."
+msgstr "Isto irá inserir um código HTML acima do bloco de navegação do Título."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:208
 msgid "Header Text"
-msgstr "Texto do cabeçalho/header"
+msgstr "Texto do cabeçalho"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:214
 msgid "Inserts the text above in the header where the nagivation linkes are located."
@@ -606,7 +606,7 @@ msgstr "reCaptcha ™ Public Key"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:429
 msgid "Insert the public key provided by reCAPTCHA&trade;."
-msgstr "Inserir a Public Key fornecida pelo reCAPTCHA ™."
+msgstr "Inserir a chave pública fornecida pelo reCAPTCHA ™."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:434
 msgid "reCaptcha&trade; Secret Key"
@@ -618,7 +618,7 @@ msgstr "Inserir a Secret Key fornecida pelo reCAPTCHA ™."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:452
 msgid "In order to use reCAPTCHA&trade; you need to sign up for the service at <a href=\"http://www.google.com/recaptcha\">reCAPTCHA&trade;</a>, which will provide you with a public and a private key."
-msgstr ", A fim de usar o reCAPTCHA ™, você precisa se ​​inscrever para o serviço de <a href=\"http://www.google.com/recaptcha\">reCAPTCHA ™</a> , que irá fornecer-lhe uma pública e uma chave privada."
+msgstr ", A fim de usar o reCAPTCHA ™, você precisa inscrever-se para o serviço de <a href=\"http://www.google.com/recaptcha\">reCAPTCHA ™</a> , que irá fornecer-lhe uma pública e uma chave privada."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:468
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:503
@@ -647,7 +647,7 @@ msgstr "Apresentação"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:527
 msgid "1st Image URL"
-msgstr "1 URL da Imagem"
+msgstr "primeira URL da Imagem"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:531
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:563
@@ -665,7 +665,7 @@ msgstr "URL da imagem (não se esqueça do \"http://\"). Tamanho sugerido: Largu
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:538
 msgid "1st URL"
-msgstr "1 URL"
+msgstr "Primeira URL"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:542
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/preferences.php:574
@@ -844,7 +844,7 @@ msgstr "Não disponível"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:60
 msgid "You must have Safe Mode turned off and the exec() function enabled to allow ImageMagick to process your images. Please check the information panel for more details."
-msgstr "Você deve desativar o Modo de Segurança e o exec () função activada para permitir ImageMagick para processar suas imagens. Por favor, verifique o painel de informações para mais detalhes."
+msgstr "Você deve desativar o Modo de Segurança e o exec () função ativada para permitir ImageMagick para processar suas imagens. Por favor, verifique o painel de informações para mais detalhes."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:60
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:62
@@ -858,29 +858,29 @@ msgstr "Não Encontrado"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:62
 msgid "You must provide the correct path to the \"convert\" binary on your system. This is typically located under /usr/bin (Linux), /opt/local/bin (Mac OSX) or the installation directory (Windows)."
-msgstr ""
+msgstr "Você deve fornecer o caminho correto para o  \"convert\" em seu sistema. Isso geralmente está localizado em /usr/bin (Linux), /opt/local/bin (Mac OSX) ou no diretório de instalação (Windows). "
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:64
 msgid "Not Working"
-msgstr "Não Funcionando"
+msgstr "Não está Funcionando"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:64
 #, php-format
 msgid "There has been an error encountered when testing your ImageMagick installation. To manually check for errors, access your server via shell or command line and type: %s"
-msgstr ""
+msgstr "Foram encontrados erros ao testar sua instalação do ImageMagick. Para verificar manualmente os erros, acesse seu servidor via shell ou linha de comando e digite:% s"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:69
 msgid "Path to ImageMagick"
-msgstr ""
+msgstr "Caminho do ImageMagick"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:75
 #, php-format
 msgid "FoOlSlide uses %s via command line to maximize the processor power for processing images. If ImageMagick %s automatically, enter the location of the \"convert\" binary on your server in the field above."
-msgstr ""
+msgstr "FoOlSlide usa %s via linha de comando para maximizar a potência do processador para o processamento de imagens. Se o ImageMagick %s automaticamente, insira a localização do \"convert\" em seu servidor no campo acima."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:75
 msgid "This is a library used to dynamically create, edit, compose or convert images."
-msgstr ""
+msgstr "Esta é uma biblioteca usada para criar, editar, compor ou converter dinamicamente imagens."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:75
 msgid "ImageMagick Binary"
@@ -888,7 +888,7 @@ msgstr "Binário do ImageMagick"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:75
 msgid "This is typically located under /usr/bin (Linux), /opt/local/bin (Mac OSX) or the installation directory (Windows)."
-msgstr ""
+msgstr "Geralmente está localizado em /usr/bin (Linux), /opt/local/bin (Mac OSX) ou no diretório de instalação (Windows)."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:75
 msgid "can't be found"
@@ -905,23 +905,23 @@ msgstr "Ferramentas"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:272
 msgid "Your FoOlSlide database has been optimized."
-msgstr ""
+msgstr "A base de dados do seu FoOlSlide foi otimizada."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:277
 msgid "An error occurred while optimizing the database."
-msgstr ""
+msgstr "Ocorreu um erro enquanto a base de dados estava sendo otimizada."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:289
 msgid "There are no logs available."
-msgstr ""
+msgstr "Não existe logs disponivéis"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:305
 msgid "There is no available log for this date."
-msgstr ""
+msgstr "Não há log disponivel nesta base"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:330
 msgid "Your FoOlSlide logs have been pruned."
-msgstr ""
+msgstr "Os logs do FoOlSlide foram removidos."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:368
 msgid "You have to correct the errors above to continue."
@@ -930,11 +930,11 @@ msgstr "Você precisa corrigir os erros acima para continuar."
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:399
 #, php-format
 msgid "To repair automatically by removing the unidentified data and rebuilding the missing thumbnails, enter: %s"
-msgstr ""
+msgstr "Para reparar automaticamente removendo os dados não identificados e reconstruindo as miniaturas ausentes, insira: %s"
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:401
 msgid "Successfully repaired your library."
-msgstr ""
+msgstr "Sua biblioteca foi reparada com sucesso."
 
 #: /Users/woxxy/github/FoOlSlide/application/controllers/admin/system.php:502
 msgid "Upgrade FoOlSlide"
@@ -1029,7 +1029,7 @@ msgstr "Lista de equipes."
 
 #: /Users/woxxy/github/FoOlSlide/application/libraries/Admin_Controller.php:99
 msgid "Home Team"
-msgstr "Equipe da casa"
+msgstr "página Inicial da equipe"
 
 #: /Users/woxxy/github/FoOlSlide/application/libraries/Admin_Controller.php:100
 msgid "Add Team"
@@ -1051,11 +1051,11 @@ msgstr "Novo"
 
 #: /Users/woxxy/github/FoOlSlide/application/libraries/Admin_Controller.php:142
 msgid "Ask FoOlRulez & FAQ"
-msgstr "Ask FoOlRulez & FAQ"
+msgstr "Pergunte a FoOlRulez & FAQ"
 
 #: /Users/woxxy/github/FoOlSlide/application/libraries/Admin_Controller.php:143
 msgid "Bug tracker"
-msgstr "Bug tracker"
+msgstr "Identificador de erro"
 
 #: /Users/woxxy/github/FoOlSlide/application/libraries/REST_Controller.php:898
 msgid "ID not set"
@@ -1104,7 +1104,7 @@ msgstr "Número do subcapítulo"
 
 #: /Users/woxxy/github/FoOlSlide/application/models/chapter.php:132
 msgid "Insert a subchapter number to identify extra chapters. Zero for main chapter. Start counting subchapters from 1, not from 5."
-msgstr ""
+msgstr "Insira um número de subcapítulo para identificar capítulos extras. Zero para o capítulo principal. Comece contando subcapítulos de 1, não de 5"
 
 #: /Users/woxxy/github/FoOlSlide/application/models/chapter.php:133
 msgid "Volume"
@@ -1209,20 +1209,20 @@ msgstr "Falha ao remover o diretório do capítulo. Por favor, verifique as perm
 
 #: /Users/woxxy/github/FoOlSlide/application/models/chapter.php:739
 msgid "Found a chapter entry without a comic entry, Chapter ID: "
-msgstr ""
+msgstr "Capítulo encontrado sem um quadrinho definido, Capítulo ID: "
 
 #: /Users/woxxy/github/FoOlSlide/application/models/chapter.php:757
 #: /Users/woxxy/github/FoOlSlide/application/models/comic.php:596
 msgid "No directory found for:"
-msgstr ""
+msgstr "Diretório nã encontrado para: "
 
 #: /Users/woxxy/github/FoOlSlide/application/models/chapter.php:779
 msgid "Found non writable files in the comics folder. Check your files permissions."
-msgstr ""
+msgstr "Não foram encontradas arquivos graváveis nesse arquivo de quadrinhos, cheque as permissões."
 
 #: /Users/woxxy/github/FoOlSlide/application/models/chapter.php:839
 msgid "Unidentified file found in:"
-msgstr ""
+msgstr "Arquivo não identificado encontrado em: "
 
 #: /Users/woxxy/github/FoOlSlide/application/models/chapter.php:979
 msgid "Vol."
@@ -1278,7 +1278,7 @@ msgstr "O diretório não pôde ser removido. Por favor, verifique as permissõe
 
 #: /Users/woxxy/github/FoOlSlide/application/models/comic.php:623
 msgid "Unidentified directory found at:"
-msgstr ""
+msgstr "Diretório não identificado encontrado em: "
 
 #: /Users/woxxy/github/FoOlSlide/application/models/comic.php:639
 msgid "Unidentified file found at:"
@@ -1398,15 +1398,15 @@ msgstr "Página não encontrada ao criar miniatura:"
 
 #: /Users/woxxy/github/FoOlSlide/application/models/page.php:651
 msgid "Failed to remove the thumbnail while rebuilding it. Please, check file permissions."
-msgstr ""
+msgstr "Falha ao remover a miniatura durante a reconstrução. Por favor, verifique as permissões do arquivo."
 
 #: /Users/woxxy/github/FoOlSlide/application/models/page.php:673
 msgid "Failed to recreate the thumbnail of the page."
-msgstr ""
+msgstr "Falha ao recriar a miniatura da página."
 
 #: /Users/woxxy/github/FoOlSlide/application/models/page.php:683
 msgid "Failed to save the image compression method in the database."
-msgstr ""
+msgstr "Falha ao salvar o método de compactação de imagem no banco de dados."
 
 #: /Users/woxxy/github/FoOlSlide/application/models/team.php:173
 msgid "Failed to find the selected team's ID."
@@ -1564,7 +1564,7 @@ msgstr "Nome de exibição (público)"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/account/profile/profile.php:30
 msgid "Twitter username (public)"
-msgstr "Twitter username (público)"
+msgstr "Nome de usuário do Twitter (público)"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/account/profile/profile.php:36
 msgid "Bio (public) (max 140 characters)"
@@ -1679,20 +1679,20 @@ msgstr "Você realmente deseja atualizar sua base de dados?"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/loadbalancer/balancers_list.php:7
 msgid "FoOlSlide load balancers are servers that serve images cloned from the master server. You can host a load balancer by either using an external service (like a Content Delivery Network), or use another FoOlSlide installation in \"client mode\" on another server."
-msgstr ""
+msgstr "Os balanceadores de carga FoOlSlide são servidores que exibem imagens clonadas do servidor principal. Você pode hospedar um balanceador de carga usando um serviço externo (como uma Rede de entrega de conteúdo) ou usar outra instalação FoOlSlide no \"modo cliente\" em outro servidor."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/loadbalancer/balancers_list.php:11
 #, php-format
 msgid "The process of setting up a FoOlSlide Balancer is very simple: you just install a slide on the other server, provide it with the URL to this slide (%s), and add the URL for the other slide below. The rest is automatic."
-msgstr ""
+msgstr "O processo de configuração de um Balanceador FoolSlide é muito simples: basta fazer uma ligação no outro servidor, fornecer o URL para esta ligação (%s) e adicionar a URL do outro slide abaixo. O resto é automático."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/loadbalancer/balancers_list.php:14
 msgid "The percentages are for ease and you can set each host to any percentage. For example, if you set two load balancers at 100%, they will actually operate at 50% each."
-msgstr ""
+msgstr "As porcentagens são fáceis e você pode definir cada host para qualquer porcentagem. Por exemplo, se você definir dois balanceadores de carga em 100%, eles realmente operarão em 50% cada."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/loadbalancer/balancers_list.php:18
 msgid "Currently, the load balancer does not support serving downloadable compressed archives. These will be served by the master FoOlSlide installation instead. Please keep this in mind while you are distributing the percentages."
-msgstr ""
+msgstr "Atualmente, o balanceador de carga não suporta a exibição de arquivos compactados para download. Estes serão servidos pela instalação principal do FoOlSlide. Por favor, tenha isso em mente enquanto distribui as porcentagens."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/loadbalancer/balancers_list.php:27
 msgid "URL"
@@ -1708,11 +1708,11 @@ msgstr "Adicionar/Salvar"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/loadbalancer/balancers_list.php:63
 msgid "IPs of Load Balancing Servers"
-msgstr ""
+msgstr "IPs dos servidores de balanceamento de carga"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/loadbalancer/balancers_list.php:68
 msgid "Add the IPs of the servers used for balancing. This will prevent them from being limited via the nationality filter."
-msgstr ""
+msgstr "Adicione os IPs dos servidores usados para balanceamento. Isso impedirá que eles sejam limitados por meio do filtro de nacionalidade."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/members/team.php:7
 msgid "Team Information"
@@ -1817,7 +1817,7 @@ msgstr "Tentar"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/series/import_compressed_list.php:216
 msgid "Attempts to detect the volume, chapter, and sub-chapter numbers for the chapters listed below. (For Example: \"Chapter_123\" would be detected by using \"Chapter_{ccc}\" in the field.)"
-msgstr ""
+msgstr "Tenta detectar os números de volume, capítulo e subcapítulos dos capítulos listados abaixo. (Por exemplo: \ "Capítulo_123 \" seria detectado usando \ "Capítulo_ {ccc} \" no campo.)"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/series/import_compressed_list.php:220
 msgid "Mass Set Volumes"
@@ -1831,7 +1831,7 @@ msgstr "Definir"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/series/import_compressed_list.php:222
 msgid "Sets the volume for all of the chapters listed below."
-msgstr ""
+msgstr "Define o volume para todos os capítulos listados abaixo."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/series/import_compressed_list.php:225
 msgid "Set Initial Chapter Number"
@@ -1839,7 +1839,7 @@ msgstr "Definir número do capítulo inicial"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/series/import_compressed_list.php:227
 msgid "Sets the initial chapter and auto-increments for additional chapters listed below."
-msgstr ""
+msgstr "Define o capítulo inicial e incrementos automáticos para capítulos adicionais listados abaixo."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/series/import_compressed_list.php:230
 msgid "Mass Set Teams"
@@ -1915,7 +1915,7 @@ msgstr "Web Server Software"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:21
 msgid "The web server that is currently running to serve your content."
-msgstr ""
+msgstr "O servidor da Web que está sendo executado atualmente para acessar seu conteúdo."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:25
 msgid "PHP Version"
@@ -1931,7 +1931,7 @@ msgstr "Versão antiga do PHP"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:31
 msgid "To run FoOlSlide, you need at least PHP  version 5.2.0."
-msgstr ""
+msgstr "Para rodar o FoOlSlide você precisa no mínimo do PHP 5.2.0"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:31
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:61
@@ -1947,15 +1947,15 @@ msgstr "Sugerido"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:42
 msgid "Nginx Upload Size"
-msgstr ""
+msgstr "Tamanho do upload do Nginx"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:43
 msgid "This value cannot be checked via PHP."
-msgstr ""
+msgstr "Este valor não pode ser verificado via PHP."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:44
 msgid "The Nginx web server has its own internal upload limit variable. If you are receiving upload errors, and your PHP configuration looks fine, check this variable in your Nginx configuration file."
-msgstr ""
+msgstr "O servidor da Web Nginx possui sua própria variável interna de limite de upload. Se você está recebendo erros de upload, e sua configuração do PHP está ok, verifique esta variável em seu arquivo de configuração Nginx."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:44
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:89
@@ -1987,7 +1987,7 @@ msgstr "Nova Versão Disponível"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:61
 msgid "Upgrading FoOlSlide ensures that you have the most secure, stable and feature enhanced release."
-msgstr ""
+msgstr "Atualizando o FoOlSlide garante que você tenha a versão mais segura, estável e aprimorada."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:67
 msgid "Environment"
@@ -1995,7 +1995,7 @@ msgstr "Ambiente"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:69
 msgid "The environment FoOlSlide is current running as on the server."
-msgstr ""
+msgstr "O ambiente FoOlSlide é executado atualmente como no servidor."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:76
 msgid "PHP Configuration"
@@ -2003,15 +2003,15 @@ msgstr "Configuração PHP"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:77
 msgid "PHP settings can be easily changed by editing your php.ini file."
-msgstr ""
+msgstr "As configurações do PHP podem ser facilmente alteradas editando o arquivo php.ini."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:81
 msgid "php.ini Location"
-msgstr ""
+msgstr "Localização do php.ini"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:83
 msgid "This is the location of the file to edit to change the following variables."
-msgstr ""
+msgstr "Esta é a localização do arquivo a ser editado para alterar as seguintes variáveis."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:87
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:92
@@ -2030,19 +2030,19 @@ msgstr "Desligado"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:89
 msgid "The PHP safe mode is an attempt to solve the shared-server security problems and disables many important PHP functions. This is mainly used by shared hosting services to avoid implementing correct security fixes for shared-server environments."
-msgstr ""
+msgstr "O modo de segurança do PHP é uma tentativa de resolver os problemas de segurança do servidor compartilhado e desativa muitas funções importantes do PHP. Isso é usado principalmente pelos serviços de hospedagem compartilhada para evitar a implementação de correções de segurança corretas para ambientes de servidor compartilhado."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:93
 msgid "Safe Mode has been enabled on your PHP installation. This setting has nothing to do with security, and it's used by shared server hosts to limit your actions. This variable should be turned off for FoOlSlide to function correctly."
-msgstr ""
+msgstr "O Modo de Segurança foi ativado em sua instalação do PHP. Essa configuração não tem nada a ver com segurança e é usada por hosts de servidor compartilhado para limitar suas ações. Essa variável deve ser desativada para que o FoOlSlide funcione corretamente."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:99
 msgid "Allow URL fopen"
-msgstr ""
+msgstr "permitir que a URL fopen "
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:101
 msgid "This function allows PHP to use URL-aware fopen wrappers to access remote files via FTP or HTTP protocol."
-msgstr ""
+msgstr "Essa função permite que o PHP use wrappers fopen com reconhecimento de URL para acessar arquivos remotos via FTP ou protocolo HTTP."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:104
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:124
@@ -2052,7 +2052,7 @@ msgstr "Com mobilidade condicionada"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:105
 msgid "Your PHP configuration currently has URL-aware fopen wrappers disabled. This affects FoOlSlide functions that require accessing remote files in case cURL is not installed on the system. If it is possible, this variable should be enabled with cURL installed as well."
-msgstr ""
+msgstr "Atualmente, sua configuração do PHP tem empacotadores de fopen com reconhecimento de URL desativados. Isso afeta as funções do FoOlSlide que requerem o acesso a arquivos remotos, caso o cURL não esteja instalado no sistema. Se for possível, esta variável deve ser habilitada com o cURL instalado também."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:111
 msgid "Max Execution Time"
@@ -2067,11 +2067,11 @@ msgstr "Este é o tempo máximo em segundos que é o script permitido continuar 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:152
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:164
 msgid "Low Value"
-msgstr ""
+msgstr "Valor Baixo"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:117
 msgid "Your current value for max execution time is low. This option affects functions that require large amounts of processing time, such as processing images. If your server doesn't have a powerful processor or you're processing large amounts of images, this value must be set as high as the total processing time taken to complete the function."
-msgstr ""
+msgstr "O valor atual para o tempo máximo de execução é baixo. Essa opção afeta funções que exigem grandes quantidades de tempo de processamento, como o processamento de imagens. Se o seu servidor não tiver um processador poderoso ou se você estiver processando grandes quantidades de imagens, esse valor deverá ser definido como o tempo total de processamento necessário para concluir a função."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:123
 msgid "File Uploads"
@@ -2087,7 +2087,7 @@ msgstr "Isto indica se deve ou não permitir o upload de arquivos HTTP."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:129
 msgid "Your PHP configuration currently has file uploads disabled. This variable must be enabled or FoOlSlide will not operate correctly."
-msgstr ""
+msgstr "Sua configuração do PHP atualmente possui uploads de arquivos desativados. Esta variável deve estar habilitada ou o FoOlSlide não funcionará corretamente."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:135
 msgid "Max POST Size"
@@ -2099,7 +2099,7 @@ msgstr "Este é o tamanho máximo de dados postados permitidos."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:141
 msgid "Your current value for POST size is low. This variable should generally be set at a higher value to accomodate and ensure that all of your chapters will be uploaded."
-msgstr ""
+msgstr "Seu valor atual para o tamanho do POST é baixo. Essa variável geralmente deve ser configurada com um valor mais alto para acomodar e garantir que todos os seus capítulos sejam carregados."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:147
 msgid "Max Upload Size"
@@ -2111,19 +2111,19 @@ msgstr "Este é o tamanho máximo permitido de upload."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:153
 msgid "Your current value for max upload size is low. This variable should generally be set at a higher value to accommodate and allow your largest chapter to be uploaded."
-msgstr ""
+msgstr "Seu valor atual para o tamanho máximo de upload é baixo. Essa variável geralmente deve ser configurada com um valor mais alto para acomodar e permitir que seu maior capítulo seja carregado."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:159
 msgid "Max File Uploads"
-msgstr ""
+msgstr "Uploads máx. de arquivos"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:161
 msgid "This is the maximum number of files allowed to be uploaded simultaneously."
-msgstr ""
+msgstr "Esse é o número máximo de arquivos que podem ser enviados simultaneamente."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:165
 msgid "Your current value for max file uploads is low. This variable should generally be set at a higher value than the number of pages your chapters may have."
-msgstr ""
+msgstr "Seu valor atual para uploads máximos de arquivos é baixo. Essa variável geralmente deve ser configurada com um valor maior que o número de páginas que seus capítulos podem ter."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:175
 msgid "Extensions"
@@ -2142,7 +2142,7 @@ msgstr "Não Instalado"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:181
 msgid "This is a library used to communicate with different types of servers with many types of protocols."
-msgstr ""
+msgstr "Esta é uma biblioteca usada para se comunicar com diferentes tipos de servidores com muitos tipos de protocolos."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:185
 msgid "Missing"
@@ -2150,7 +2150,7 @@ msgstr "Faltando"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:186
 msgid "This is a library used to dynamically create images and thumbnails."
-msgstr ""
+msgstr "Esta é uma biblioteca usada para criar dinamicamente imagens e miniaturas."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:192
 msgid "Optional"
@@ -2158,7 +2158,7 @@ msgstr "Opcional"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:214
 msgid "If you are asked to provide an output of your server information, please click the \"Output Server Information\" button at the top right and provide it to us via <a href=\"http://pastebin.com\">Pastebin</a> or some similar service."
-msgstr ""
+msgstr "Se você for solicitado a fornecer uma saída das informações do seu servidor, clique no botão \"Informações do servidor de saída\" no canto superior direito e forneça-o para nós <a href=\"http://pastebin.com\">Pastebin</a> ou algum serviço similar."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:221
 msgid "System Information"
@@ -2169,13 +2169,13 @@ msgstr "Informações do Sistema"
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:208
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:254
 msgid "Pastebin It!"
-msgstr ""
+msgstr "Pastebin It!"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/information.php:254
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:216
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:387
 msgid "Note: This paste expires in 1 hour."
-msgstr ""
+msgstr "Nota: esta colagem expira em 1 hora."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:6
 msgid "Sitemap for search engines"
@@ -2198,7 +2198,7 @@ msgstr "Importante"
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:14
 #, php-format
 msgid "FoOlSlide has detected that your server is able to use a better compression algorithm for thumbnail generation. This optimization will create small thumbnails and reduce up to 10% bandwidth usage. However, regardless of this action, all thumbnails will be generated with this new algorithmn."
-msgstr ""
+msgstr "FoOlSlide detectou que seu servidor é capaz de usar um algoritmo de compactação melhor para geração de miniaturas. Essa otimização criará pequenas miniaturas e reduzirá o uso de largura de banda de até 10%. No entanto, independentemente desta ação, todas as miniaturas serão geradas com este novo algoritmo."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:24
 msgid "Pictures left to be processed:"
@@ -2220,11 +2220,11 @@ msgstr "Pronto."
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:106
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:108
 msgid "Download Database Backup"
-msgstr ""
+msgstr "Download do backup do banco de dados"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:107
 msgid "This will allow you to routinely download a copy of your FoOlSlide database. Furthermore, routine backups of the FoOlSlide directory is also required in case of a complete server failure for this file to be useful."
-msgstr ""
+msgstr "Isso permitirá que você baixe rotineiramente uma cópia do seu banco de dados FoOlSlide. Além disso, os backups de rotina do diretório FoOlSlide também são necessários no caso de uma falha completa do servidor para que este arquivo seja útil."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:114
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:119
@@ -2233,11 +2233,11 @@ msgstr "Otimizar Base de Dados"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:115
 msgid "Performing database optimization from time to time will cause your FoOlSlide installation to be slightly faster."
-msgstr ""
+msgstr "Realizar a otimização de banco de dados de tempos em tempos fará com que sua instalação FoOlSlide seja um pouco mais rápida."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:121
 msgid "Are you sure you want to optimize your FoOlSlide database?"
-msgstr ""
+msgstr "Tem certeza de que deseja otimizar seu banco de dados FoOlSlide?"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:131
 msgid "FoOlSlide Logs"
@@ -2245,21 +2245,21 @@ msgstr "Logs do FoOlSlide"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:132
 msgid "Daily logs are generated by FoOlSlide and contains information that will help developers debug your problems. If any actual errors are found, please report any serious errors to the FoOlSlide developers. However, do not report any 404 and missing cookie notices."
-msgstr ""
+msgstr "Os logs diários são gerados pelo FoOlSlide e contém informações que ajudarão os desenvolvedores a depurar seus problemas. Se algum erro real for encontrado, relate quaisquer erros sérios aos desenvolvedores do FoOlSlide. No entanto, não relate nenhum aviso de cookie 404 e ausente"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:133
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:150
 msgid "View Logs"
-msgstr ""
+msgstr "Ver registros"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:137
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:141
 msgid "Prune Logs"
-msgstr ""
+msgstr "Logs de aparar"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:139
 msgid "Are you sure you want to prune all FoOlSlide logs?"
-msgstr ""
+msgstr "Tem certeza de que deseja remover todos os logs do FoOlSlide?"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:142
 msgid "FoOlSlide logs can often use a lot of space. This function will allow you to remove all logs to save space."
@@ -2317,7 +2317,7 @@ msgstr "Reparando a Biblioteca"
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:299
 msgid "Checking comics folder."
-msgstr "Verificando pasta comics."
+msgstr "Verificando pasta quadrinhos."
 
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:309
 #: /Users/woxxy/github/FoOlSlide/application/views/admin/system/tools.php:344
@@ -2432,11 +2432,11 @@ msgstr "Venha conversar conosco!"
 
 #: /Users/woxxy/github/FoOlSlide/content/themes/default/views/adult.php:9
 msgid "This series contains mature contents and is meant to be viewed by an adult audience.<br/>\tIf you are of legal age, click on continue."
-msgstr ""
+msgstr "Esta série contém conteúdos adultos e deve ser visualizada por um público adulto. <br/> \ tSe tiver idade legal, clique em continuar."
 
 #: /Users/woxxy/github/FoOlSlide/content/themes/default/views/adult.php:15
 msgid "Continue"
-msgstr ""
+msgstr "continue"
 
 #: /Users/woxxy/github/FoOlSlide/content/themes/default/views/comic.php:13
 msgid "Title"
